@@ -392,6 +392,9 @@ li:hover .overlay-text {
   color: #f4f4fd;
   max-width: 264px;
 }
+.footer-icons {
+  margin-right: 80px;
+}
 .text-icons-footer {
   font-weight: 500;
   font-size: 16px;
@@ -425,4 +428,56 @@ li:hover .overlay-text {
 .icon-footer {
   fill: #f4f4fd;
 }
+.label-footer {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.form-footer-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  max-width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  margin-right: 24px;
+}
+.form-footer-btn {
+  border-radius: 4px;
+  padding: 8px 24px;
+  min-width: 165px;
+  min-height: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
+  background-color: #4d5ae5;
+  border: none;
+}
+
 /* #endregion footer */
+.backdrop {
+  background-color: rgba(46, 47, 66, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  width: 408px;
+  min-height: 584px;
+  background-color: #fcfcfc;
+  padding: 24px;
+}
