@@ -605,6 +605,30 @@ li:hover .overlay-text {
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.area-user-comment::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+
 .area-user-comment:focus {
   border-color: #4d5ae5;
+}
+.checkbox-user-privacy {
+  margin-bottom: 24px;
+}
+.label-checkbox {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+.custom-checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
 }

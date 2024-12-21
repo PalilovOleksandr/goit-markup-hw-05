@@ -451,11 +451,12 @@
         <div class="cont-email-form">
           <p class="text-email-form">Subscribe</p>
           <form class="email-form">
-            <label class="label-footer_form" for="">
+            <label class="label-footer_form" for="user-sbcrb">
               <input
                 name="user-email"
                 class="form-footer-input"
                 type="email"
+                id="user-sbcrb"
                 placeholder="E-mail"
             /></label>
             <button class="form-footer-btn" type="submit">
@@ -516,15 +517,30 @@
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-            <div class="wrapper-comment">
-              <label class="label-user-cont" for="user-comment">Comment</label>
-              <textarea
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-                class="area-user-comment"
-              ></textarea>
-            </div>
+          </div>
+          <div class="wrapper-comment">
+            <label class="label-user-cont" for="user-comment">Comment</label>
+            <textarea
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              class="area-user-comment"
+            ></textarea>
+          </div>
+          <div class="checkbox-user-privacy">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+              name="user-privacy"
+            />
+            <label class="label-checkbox" for="user-privacy"
+              ><span class="custom-checkbox"
+                ><svg>
+                  <use></use></svg></span
+              >I accept the terms and conditions of the</label
+            >
           </div>
         </form>
       </div>
