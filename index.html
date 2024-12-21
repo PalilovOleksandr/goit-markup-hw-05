@@ -460,7 +460,7 @@
             /></label>
             <button class="form-footer-btn" type="submit">
               Subscribe
-              <svg class="form-footer-icon" width="24" height="20">
+              <svg class="form-footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
@@ -469,20 +469,22 @@
       </div>
     </footer>
     <!-- foorter -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close" type="button">
-          <svg width="8" height="8">
+        <button class="modal-btn-close" type="button">
+          <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
         <form>
-          <div class="cont-user-form">
-            <label for="">Name</label>
-            <input type="text" /><svg>
-              <use></use>
-            </svg>
+          <div class="wrapper-user-form">
+            <label class="label-user-cont" for="user-name">Name</label>
+            <div class="">
+              <input class="user-cont-email" type="text" /><svg>
+                <use></use>
+              </svg>
+            </div>
           </div>
         </form>
       </div>
