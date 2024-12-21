@@ -542,25 +542,69 @@ li:hover .overlay-text {
 .modal-btn-close:focus {
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 
 .modal-btn-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-btn-icon:hover,
-.modal-btn-icon:focus {
-  fill: #ffffff;
-}
-.cont-user-form {
+.wrapper-user-form {
   margin-bottom: 8px;
 }
 .label-user-cont {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
+}
+.cont-user-name {
+  position: relative;
+}
+.input-cont-name {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  height: 40px;
+  background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-cont-name:focus {
+  border-color: #4d5ae5;
+}
+.icon-user-name {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-cont-name:focus + .icon-user-name {
+  fill: #4d5ae5;
+}
+.wrapper-comment {
+  margin-bottom: 16px;
+}
+.area-user-comment {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 120px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.area-user-comment:focus {
+  border-color: #4d5ae5;
 }
